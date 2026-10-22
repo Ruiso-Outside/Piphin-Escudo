@@ -1,0 +1,27 @@
+{
+  "id": "escudo",
+  "name": "Piphin Escudo",
+  "version": "0.0.0",
+  "description": "Verifica se o PC tem sinais de invasão ou brechas de segurança, corrige com um clique (e desfaz), vigia mudanças perigosas e confere se suas senhas vazaram.",
+  "main": "backend.js",
+  "ui": "web/index.html",
+  "icon": "icons/escudo.png",
+  "accent": "#22c55e",
+  "minHub": "1.4.0",
+  "tools": [
+    {
+      "name": "security_status",
+      "title": "Segurança do PC",
+      "readOnly": true,
+      "description": "Mostra a última verificação de segurança do Piphin Escudo (faz uma rápida se não houver de hoje): nota de 0 a 100, se há sinais de invasão, cada problema explicado (programas que abrem sozinhos suspeitos, antivírus, firewall, atualizações, acesso remoto, hosts, proxy, contas), o que está certo e os alertas recentes do Vigia. Só leitura.",
+      "input": { "type": "object", "properties": {} }
+    },
+    {
+      "name": "run_security_scan",
+      "title": "Verificar a segurança agora",
+      "readOnly": true,
+      "description": "Roda uma verificação rápida de segurança agora (uns 10 segundos, só leitura) e devolve o resultado. As correções a pessoa faz na tela do Piphin Escudo.",
+      "input": { "type": "object", "properties": {} }
+    }
+  ]
+}

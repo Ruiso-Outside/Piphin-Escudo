@@ -1,0 +1,13 @@
+{
+  "name": "piphin-escudo",
+  "productName": "Piphin Escudo",
+  "version": "1.0.0",
+  "description": "Piphin Escudo: verifica se o PC tem brechas de segurança ou sinais de invasão; módulo do Piphin Hub",
+  "author": "Piphin Studio",
+  "private": true,
+  "scripts": {
+    "icons": "node scripts/make-icons.js",
+    "icon": "node scripts/run-electron.js scripts/make-icon.js",
+    "module": "node scripts/make-module.js"
+  }
+}
