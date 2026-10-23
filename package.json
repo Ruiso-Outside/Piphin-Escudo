@@ -1,7 +1,7 @@
 {
   "name": "piphin-escudo",
   "productName": "Piphin Escudo",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Piphin Escudo: verifica se o PC tem brechas de segurança ou sinais de invasão; módulo do Piphin Hub",
   "author": "Piphin Studio",
   "private": true,
